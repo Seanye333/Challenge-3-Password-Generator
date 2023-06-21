@@ -1,5 +1,6 @@
 # Challenge-3-Password-Generator
 ## Link to application 
+https://seanye333.github.io/Challenge-3-Password-Generator/
 
 ## Description
 This repository contains the code for a Password-Generator with prompt and confirm windows. Users will be able to input number of characters to be in the password and apply the criterias to the output including uppercase alphabets, lowercase alphabets, numbers, and special characters. 
