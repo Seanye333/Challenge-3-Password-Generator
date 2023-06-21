@@ -1,12 +1,10 @@
 # Challenge-3-Password-Generator
 ## Link to application 
 
-
 ## Description
-This repository contains the code for a Password-Generator with prompt and confirm windows. Users will be able to 
+This repository contains the code for a Password-Generator with prompt and confirm windows. Users will be able to input number of characters to be in the password and apply the criterias to the output including uppercase alphabets, lowercase alphabets, numbers, and special characters. 
 
-
-The code includes Javascript, HTML and CSS files necessary to generate the password within the password display window. The sequence of operation is describe below: 
+The code includes Javascript, HTML and CSS files necessary to generate the password within the password display window. The sequence of operation is described below: 
 1. the generate password push button is pushed, then popup prompt window
 2. ask for length of password 
 3. verify length of password from users input - must be at least 8 characters and no more than 128
@@ -19,14 +17,13 @@ The code includes Javascript, HTML and CSS files necessary to generate the passw
 10. if not, display prompt window "need to have at leastt one character 
 11. restart from step 5
   
-
-From this assignment: I learned how to program 
+From this assignment: I learned how to apply if statement, for loop, functions, and var, etc. to the code. 
 
 ## Installation
 To install this project within your computer, please follow the instruction below
 1. Open git bash
 2. Create your own file
-3. To clone the repository: type in git clone https://github.com/Seanye333/Challenge-2-ResumeWeb.git
+3. To clone the repository: type in git clone https://github.com/Seanye333/Challenge-3-Password-Generator.git
 4. Navigate to the project directory: cd <project_directory>
 5. Open the file in the web browser: open index.html
 6. Website will display on your default browser
@@ -34,7 +31,7 @@ To install this project within your computer, please follow the instruction belo
 ## Usage
 Please open the HTML file (index.html) in a web browser to view the homepage. The CSS file (style.css) and javascript file are referenced in the HTML file and automatically applied to the webpage in the web browser. The website will be deployed for all users to use by simply copy and paste to browser.
 
-![alt text](assets/images/_C__Users_seany_bootcamp_Challenge-2-Resume-Web_index.html.png)
+![alt text](assets/images/PasswordGenerator.png)
 
 ## Credits
 To understand how to randomly generate passwords , mdn web was utilized to learn the concepts: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
@@ -43,6 +40,7 @@ To understand how to randomly generate passwords , mdn web was utilized to learn
 This project is licensed under the MIT License.
 
 ## Features
+Following features are from original acceptance criteria from the project: 
 
     GIVEN I need a new, secure password
     WHEN I click the button to generate a password
